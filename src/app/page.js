@@ -111,7 +111,7 @@ export default function Home() {
           <div style={{ width: '28px', height: '3px', borderRadius: '99px', background: '#0070ba' }} />
         </div>
 
-        {/* Único texto */}
+        {/* Texto limpio en azul corporativo */}
         <p style={{
           fontSize: '15px', 
           color: '#0070ba', 
