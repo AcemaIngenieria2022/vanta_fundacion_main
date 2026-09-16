@@ -77,7 +77,7 @@ export default function Home() {
 
         {/* Logo */}
         <div style={{
-          marginBottom: '36px',
+          marginBottom: '28px',
           width: '100%',
           maxWidth: '460px',
           display: 'flex',
@@ -104,34 +104,23 @@ export default function Home() {
           display: 'flex',
           alignItems: 'center',
           gap: '6px',
-          marginBottom: '32px'
+          marginBottom: '24px'
         }}>
           <div style={{ width: '28px', height: '3px', borderRadius: '99px', background: '#f4b41a' }} />
           <div style={{ width: '10px', height: '3px', borderRadius: '99px', background: '#2cb774' }} />
           <div style={{ width: '28px', height: '3px', borderRadius: '99px', background: '#0070ba' }} />
         </div>
 
-        {/* Textos */}
-        <h1 style={{
-          fontSize: 'clamp(30px, 5vw, 40px)', 
-          color: '#0f172a', 
-          fontWeight: '800', 
-          margin: '0 0 16px 0',
-          letterSpacing: '-0.8px',
-          lineHeight: 1.15
-        }}>
-          Estamos preparando algo especial
-        </h1>
-        
+        {/* Único texto */}
         <p style={{
-          fontSize: '16px', 
-          color: '#64748b', 
-          margin: 0,
-          maxWidth: '500px',
-          lineHeight: 1.6,
-          fontWeight: '400'
+          fontSize: '15px', 
+          color: '#0070ba', 
+          margin: 0, 
+          letterSpacing: '4px', 
+          textTransform: 'uppercase', 
+          fontWeight: '700'
         }}>
-          Estamos construyendo nuestro nuevo espacio digital para conectar, impactar y transformar comunidades.
+          Sitio en construcción
         </p>
 
       </div>
